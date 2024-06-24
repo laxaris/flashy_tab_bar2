@@ -27,7 +27,7 @@ class FlashyTabBar extends StatelessWidget {
   }) : super(key: key) {
     assert(height >= 55 && height <= 100);
     assert(items.length >= 2 && items.length <= 5);
-    assert(iconSize >= 15 && iconSize <= 50);
+    assert(iconSize >= 10 && iconSize <= 50);
   }
 
   final Curve animationCurve;
